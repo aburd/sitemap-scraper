@@ -1,0 +1,22 @@
+{
+  "name": "link-checker",
+  "version": "1.0.0",
+  "description": "Check links on a given webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraping",
+    "404-checking"
+  ],
+  "author": "Aaron Burdik",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "lodash": "^4.13.1",
+    "request": "^2.72.0"
+  }
+}
